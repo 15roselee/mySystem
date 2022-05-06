@@ -1,0 +1,37 @@
+.shopinput{
+    border-radius:0% !important ;
+    width: 365px !important;
+    text-align: center !important;
+}
+
+.shopselect{
+    border-radius: 0px 10px 10px 0px !important;
+    border-color:rgb(150, 150, 150) !important ;
+    width: 100% !important;
+    padding: 0px 74px !important;
+ 
+}
+.form-control-yema{
+    width: 40px !important;
+    border-radius:0% !important ;
+    border-color:rgb(10, 10, 10) !important ;
+    height: 25px !important;
+}
+.clickRowStyl{
+
+    background-color:rgb(250, 187, 15)
+}
+ 
+.form-control-quantity{
+    width: 55px !important;
+    border-radius:0% !important ;
+    border-color:rgb(10, 10, 10) !important ;
+    height: 25px !important;  
+}
+.form-control-group{
+    padding-top: 22px  !important;
+}
+
+.form-control-input{
+    padding-top: 0px !important;
+}

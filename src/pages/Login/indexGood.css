@@ -1,0 +1,138 @@
+
+/* indexGood的样式 */
+
+.ant-layout-content{
+
+}
+#root{
+    
+   
+    background-Size:'100% 100%';
+    background-size: auto;
+    background:url(../Home/image/6.png) no-repeat !important;
+    min-width: 100%;
+    min-height: 100%; ;   
+}
+.inputbox{
+    width: 450px;
+    height: 450px;
+    background: rgb(255, 255, 255) ;
+    opacity: 90%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 10px;
+               
+}
+.text{
+    display: block;
+    font-weight: 500;
+    color: #F03726;
+    font-size: 30px;
+    text-align: center !important;
+}
+.ant-btn{
+    margin: 0px !important;
+    display: block;
+    height: 40px !important;
+    background: #FF7A00 !important;
+    font-size: 20px !important;
+}
+
+
+/* index2的样式 */
+
+/* .formFile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    margin-top: 50px;
+} */
+/* .ant-input{
+    display: block;
+    height: 30px !important;
+} */
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* #root{
+    width: 1000px;
+    height: 960px;
+    overflow: auto !important;
+    background: #fff url("../Home/image/6.png") no-repeat;
+    image:
+} */
+/* .bgc{
+
+    overflow: auto !important;
+    background-size: 100% 100% !important;
+    background: #fff url("../Home/image/6.png") no-repeat;
+
+    min-width: 100%;
+    min-height: 100%; ;
+} */
+/* .content{
+    width: 460px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    margin-top: 20vh;
+    background-color: rgb(247, 222, 158);
+    opacity: 90%;
+   
+}
+h1{
+    display: block;
+    text-align: center;
+    margin-top: 30px !important;
+    font-weight: 400;
+    color: #F03726 !important;
+
+}
+.line{
+    width: 300px;
+    height: 2px;
+    background-color: #fff;
+    margin: 20px 0px 20px 55px;
+}
+.form-group{
+    margin-bottom: 34px;
+}
+.form-control{
+    padding: 0px !important;
+    border: none;
+    border: 2px solid rgb(155, 155, 155);
+    padding-top: 10px;
+    width: 360px;
+height: 46px;
+}
+.button{
+    width: 360px;
+    height: 46px; 
+    margin-left: 30px !important;
+    color: white;
+    background-color: #FF7A00;
+    font-size: 20px;
+    border: none;
+    border: 2px solid rgb(155, 155, 155);
+}
+.button:hover{
+    background-color: #c4b09d;
+}
+p{padding-left: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: large;
+} */

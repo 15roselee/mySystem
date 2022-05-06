@@ -1,0 +1,28 @@
+.site-page-markpri{
+ margin-left:55%;
+ font-weight: normal;
+}
+.site-page-markmo{
+    margin-left:5%;
+    font-weight: normal;
+   }
+.site-page-money{
+    width: 58px !important;
+    border-radius:5px  !important ;
+    border-color:rgb(10, 10, 10) !important ;
+    height: 30px !important;
+
+}
+
+.wechat {
+    width: 190px;
+    height:190px;
+    background: #fff url("../image/wechat.png") no-repeat;
+  }
+  .alipay {
+    width:190px;
+    height:190px;
+    background: #fff url("../image/alipay.png") no-repeat;
+  }
+
+

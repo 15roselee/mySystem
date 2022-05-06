@@ -1,0 +1,39 @@
+.form-horizontal-from-to{
+    border-radius: 0px !important ;
+}
+
+
+.site-input-left{
+
+    border-right: white !important;
+    border-radius: 0px !important;
+    width:100% !important;
+    text-align: center !important;
+   
+}
+
+.site-input-split{
+
+    border-bottom-color: #e5e6e7 !important;
+    border-radius: 0px !important;
+    border-top-color:#e5e6e7 !important;
+    width: 100% !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    pointer-events: none !important;
+    text-align: center !important;
+  
+  
+ 
+
+}
+
+.site-input-right{
+    border-left: white !important;
+    width:100% !important;
+    text-align: center !important;
+}
+
+.ant-input-group > [class*='col-']{
+    padding-right: 0px !important;
+}

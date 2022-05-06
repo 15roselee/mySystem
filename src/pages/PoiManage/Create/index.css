@@ -1,0 +1,22 @@
+.ant-picker{
+    width: 100% ;
+    border-radius:0px 10px 10px 0px  !important;
+}
+.site-page-mark{
+
+    background-color:rgb(245, 246, 248);
+    margin:0px 0px 10px 5px;
+    padding:10px;
+    font-weight: bold ;
+    font-size: 20px;
+}
+.ant-btn {
+   
+    border-radius: 5px !important;
+    width: 130PX;
+    margin: 0px  10px 5px 0px !important;
+}
+
+.time-picker-m{
+    border-radius: 0px !important;
+}

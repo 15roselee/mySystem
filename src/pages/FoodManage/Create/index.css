@@ -1,0 +1,31 @@
+.btn-primary{
+    margin-left: 85% !important;
+}
+
+.btn-primary-load{
+    width:100%;
+}
+
+.Icom-reduce{
+    position: relative;
+    top: 0px;
+    margin: 2px 8px;
+    color: #999;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.site-page-addname{
+    width: 98%;
+}
+.site-page-addprice{
+    width: 98%;
+}
+.site-page-addunit{
+    width: 98%;
+}
+.form-groupmethod{
+    width: 100% !important;
+}
+

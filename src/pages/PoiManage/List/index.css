@@ -1,0 +1,88 @@
+.ant-page-header {
+    background: #e5e6e7 !important;
+    margin:0px 0px 15px 0px !important;
+    padding:6px !important;
+}
+
+.ant-layout-content{
+    /* border: 2px solid rgb(5, 5, 5) !important; */
+    border: 3px solid gray !important;
+    background:#fff ;
+    margin: 3px !important;
+}
+
+.ant-form-item-label{
+    border:1px solid #CCD2DA;
+    border-radius: 10px 0px 0px 10px ;
+    width: 100PX;
+    height: 32pX;
+    background-color: #e5e6e7;
+ 
+
+}
+.ant-form-item-control-input{
+    display: inline-block !important;
+    width: 100%;
+    height: 32PX;
+    background-color: #e5e6e7;
+    border-radius: 0px 10px 10px 0px ;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    border-radius: 0px 10px 10px 0px !important;
+}
+
+.ant-btn {
+    background: rgb(247, 184, 14) !important;
+    border-radius: 5px !important;
+    width: 100PX;
+    margin: 0px  10px 5px 0px !important;
+}
+
+.ant-btn:hover, .ant-btn:focus, .ant-btn:active {
+    background: rgb(20, 20, 20) !important;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+    color: rgb(0, 0, 0) !important; 
+    border-color:rgb(10, 1, 19)!important; 
+    background: rgb(252, 251, 249) !important;
+    
+}
+
+.ant-input {
+    display: inline-block !important;
+    width: 100% !important;
+    border-radius: 0px 10px 10px 0px !important ;
+
+}
+
+.breadcrumb{
+   display:flex;
+   align-items: center;
+   justify-content: center ;
+   margin: 190% 0px 0px 10px;
+}
+
+.btn-primary-a{
+    color: rgb(247, 184, 14) !important; 
+}
+
+
+.ant-layout-has-sider{
+    border: 3px solid rgb(8, 8, 8) !important;
+   
+}
+.ant-layout-sider{
+    border: 4px solid rgb(218, 217, 217) !important;
+}
+
+.my-pageination{
+    text-align: center;
+    
+}
+
+.my-pagination-left{
+    align-items: center;
+    padding-left:450px
+}
