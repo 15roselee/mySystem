@@ -11,7 +11,6 @@ import Home from "./pages/Home";
 // import PoiManageList from "./pages/PoiManage/List";
 import "antd/dist/antd.css";
  import Login from "./pages/Login"
- import Sign_in from "./pages/Login/sign_in"
 
 
 
@@ -26,7 +25,6 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
     <Login />
-    <Sign_in />
       <Home />
     </BrowserRouter>
   </React.StrictMode>,

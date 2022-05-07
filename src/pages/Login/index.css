@@ -116,7 +116,7 @@ h1{
 height: 46px;
 }
 .button{
-    width: 360px;
+    width: 180px;
     height: 46px; 
     margin-left: 30px !important;
     color: white;
@@ -125,7 +125,20 @@ height: 46px;
     border: none;
     border: 2px solid rgb(155, 155, 155);
 }
+
+.login{
+    width:180px;
+    height: 46px; 
+    /* margin-left: 30px !important; */
+    color: white;
+    background-color: #FF7A00;
+    font-size: 20px;
+    border: none;
+    border: 2px solid rgb(155, 155, 155);
+}
 .button:hover{
+    background-color: #c4b09d;}
+.login:hover{
     background-color: #c4b09d;
 }
 p{padding-left: 30px;
