@@ -28,7 +28,9 @@ import OrderManageOutFood from '../OrderManage/OutFood';
 import OrderManageChange from '../OrderManage/Change';
 import OrderManageCheck from '../OrderManage/Check';
 
-import Login from '../Login'
+import LoginRegisterLogin from '../Login/RegisterLogin';
+
+// import Login from '../Login'
 
 import './index.css';
 
@@ -46,6 +48,8 @@ export default function Home() {
 
   return (
     <Layout>
+      <LoginRegisterLogin></LoginRegisterLogin>
+
       <Sider
         style={{ height: '100%' }}
         theme="light"
@@ -153,7 +157,10 @@ export default function Home() {
               <Route path="change" element={<OrderManageChange />} />
               <Route path="check" element={<OrderManageCheck />} />
             </Route>
-            {/* <Route path="login" element={<Login />} /> */}
+            
+            <Route path="/login">
+              <Route path="registerLogin" element={<LoginRegisterLogin />}/>
+            </Route>
 
           </Routes>
      

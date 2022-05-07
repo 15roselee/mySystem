@@ -4,7 +4,8 @@ import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import axios from 'axios';
 import { Link, useNavigate ,Redirect} from 'react-router-dom';
 import { message } from 'antd';
-import Home from "../Home";
+import Home from "../../Home";
+import ReactDOM from "react-dom";
 
 
 export default function Login(){
@@ -100,14 +101,7 @@ function requestLogin(condition) {
     if (response.data == "登录成功") {
       
       message.success('登录成功')
-      // 页面跳转到home页
-      // window.location.href=< Home/>
-      // return <Redirect to={{pathname:"../home"}} />
-     
-  //     const {history}=this.props
-  // history.push(".page/home")
-  //     history.go()
-
+      window.location.href= '/poi-manage/list'
     }else{
       message.error('登录失败');
     }
@@ -117,6 +111,7 @@ function requestLogin(condition) {
     console.log(error);
     // message.error('登录失败');
   });
+
   
 }
     return (
