@@ -8,6 +8,8 @@ import Home from "../../Home";
 import ReactDOM from "react-dom";
 
 
+
+
 export default function Login(){
 
   const [username, setUserName]=useState([]);
@@ -101,7 +103,7 @@ function requestLogin(condition) {
     if (response.data == "登录成功") {
       
       message.success('登录成功')
-      window.location.href= '/poi-manage/list'
+      window.location.href= '/home-page'
     }else{
       message.error('登录失败');
     }

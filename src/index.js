@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import "antd/dist/antd.css";
  import Login from "./pages/Login/RegisterLogin"
+ import HomePage from "./pages/HomePage"
 
 
 
@@ -14,6 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Home />
+      {/* <HomePage /> */}
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")

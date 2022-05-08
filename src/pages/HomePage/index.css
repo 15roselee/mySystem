@@ -1,0 +1,87 @@
+/* .logo{
+    font-weight:bold;
+    font-family:STSong;
+    font-size:30px;
+    padding:8px;
+    background-color:light;
+    margin: 6px;
+} */
+
+.logo {
+    width: 200px;
+    height: 60px;
+    margin: 0px 15px 10px 0;
+    padding:3px;
+    font-weight:bold;
+    font-size:30px;
+    background: #fff url("../Home/image/5.png") no-repeat;
+  }
+
+.site-layout{
+    margin: 2px;
+    background:white;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color:rgb(253, 200, 66) !important;
+}
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+    border-right:rgb(253, 200, 66) !important;
+}
+
+.ant-menu-item-selected {
+    color: rgb(160, 145, 145) !important; 
+}
+
+.ant-menu-item-selected a, .ant-menu-item-selected a:hover {
+    color: black !important;
+    font-size: bold;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+    border-bottom: 2px solid #ffb618 !important;
+}
+
+
+
+.ant-menu-inline .ant-menu-item, .ant-menu-inline .ant-menu-submenu-title {
+    width: calc(100% ) !important;
+    height: 62px !important;
+}
+
+.ant-page-header-heading-title {
+   padding-left: 480px;
+}
+
+/* .shop-title{
+    margin-right: 12px;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+} */
+
+.site-layout-yema{
+
+        display:flex;
+        align-items: center;
+        justify-content: center ;
+        margin: 5px 0px 0px 0px;
+     
+}
+
+.icons{
+    color: #050505 !important;
+}
+
+.ant-layout-sider-zero-width-trigger {
+
+  position: relative !important;
+  top:  0px !important;
+ 
+  left: 0px !important;
+}
