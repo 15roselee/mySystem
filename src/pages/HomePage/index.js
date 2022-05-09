@@ -47,6 +47,14 @@ export default function Home() {
 
   return (
     <Layout>
+    <Routes>
+    <Route path="/" element={<LoginRegisterLogin />} />
+    <Route path="/login">
+      {<Route path="registerLogin" element={<LoginRegisterLogin />} />}
+    </Route>
+  </Routes>
+  <div className='height'></div>
+    <Layout>
       <Sider
         style={{ height: '100%' }}
         theme="light"
@@ -59,8 +67,10 @@ export default function Home() {
         <div className="logo"></div>
 
         <Menu theme="light" mode="inline" defaultSelectedKeys={['true']}>
-          <Menu.Item key="2" icon={<UserOutlined />}>
-          
+        {/* <Menu.Item key="1" icon={<UserOutlined />}>          
+            <Link to="/login-register-login">注册登录</Link>
+          </Menu.Item> */}
+          <Menu.Item key="2" icon={<UserOutlined />}>          
             <Link to="/poi-manage/list">门店管理</Link>
           </Menu.Item>
           <Menu.Item key="3" icon={<VideoCameraOutlined />}>
@@ -152,6 +162,7 @@ export default function Home() {
           </Routes>
         </Content>
       </Layout>
+    </Layout>
     </Layout>
   );
 }

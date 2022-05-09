@@ -103,7 +103,7 @@ function requestLogin(condition) {
     if (response.data == "登录成功") {
       
       message.success('登录成功')
-      window.location.href= '/home-page'
+      window.location.href= '/poi-manage/list'
     }else{
       message.error('登录失败');
     }
@@ -154,7 +154,7 @@ function requestLogin(condition) {
             <button className="button" value={buttonName}>注&nbsp;&nbsp;册</button>
             <button className="login" onClick={onClick}>登&nbsp;&nbsp;录</button>
           </div>
-          <p>tips:请保管好你的密码！</p>
+          <div className='tips'>tips:请保管好你的密码！</div>
         </form>
       </div>
       </div>

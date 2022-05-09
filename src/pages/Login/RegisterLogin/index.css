@@ -141,7 +141,10 @@ height: 46px;
 .login:hover{
     background-color: #c4b09d;
 }
-p{padding-left: 30px;
+.tips{
+    display: block;
+    padding-left: 30px;
+    padding-bottom: 30px;
     text-align: center;
     color: #fff;
     font-size: large;

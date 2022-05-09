@@ -14,8 +14,8 @@ import "antd/dist/antd.css";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Home />
-      {/* <HomePage /> */}
+      {/* <Home /> */}
+      <HomePage />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")

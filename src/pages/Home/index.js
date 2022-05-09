@@ -44,6 +44,16 @@ export default function Home() {
   const onCollapse = collapsed => {
     setCollspsed(collapsed);
   };
+  
+
+  
+  // function Greeting(props) {
+  //   const isLoggedIn = props.isLoggedIn;
+  //   if (isLoggedIn) {
+  //     return <UserGreeting />;
+  //   }
+  //   return <GuestGreeting />;
+  // }
 
   return (
     <Layout>
